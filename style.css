@@ -116,13 +116,7 @@ footer p {
 }
 
 
-.hero::before {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 100%;
-   
-}
+
 
 
 .texto-hero {
