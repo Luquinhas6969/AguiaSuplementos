@@ -18,6 +18,10 @@
             position: sticky;
             top: 0;
         }
+        header #logo{
+            float:left;
+            border-radius: 200%;
+        }
 
         nav ul {
             list-style: none;
@@ -49,7 +53,7 @@
 
         .produtos {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
             gap: 2rem;
             margin-top: 2rem;
         }
@@ -73,4 +77,19 @@
         footer p {
             margin: 0.5rem 0;
         }
-   
+        .contact-list li {
+    font-size: 0.875rem;
+    margin-bottom: 0.75rem;
+    list-style-type: none;
+}
+.contact-list li a{
+    color: white;
+}
+
+.social-links {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+
