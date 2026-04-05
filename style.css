@@ -95,6 +95,19 @@ main {
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     border-left: 4px solid #4caf50;
+    transition: all 0.3s ease;
+    cursor: pointer;
+
+    .produto img {
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.produto:hover img {
+    transform: scale(1.08);
+}
+    
 }
 
 footer {
@@ -279,3 +292,12 @@ footer p {
 .form form input[type="reset"] {
     float: right;
 }
+
+.preco {
+    color: #2ecc71; 
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+
