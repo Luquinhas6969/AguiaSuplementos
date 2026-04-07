@@ -155,7 +155,7 @@ footer p {
     margin: 0.5rem 0;
 }
 
-footer-col {
+.footer-col {
     background-color: #2d5016;
     color: white;
     text-align: center;
@@ -170,7 +170,7 @@ footer-col {
 }
 
 .contact-list li a {
-      color: rgb(0, 0, 0);
+      color: #a8d5ba;
 }
 
 .social-links {
